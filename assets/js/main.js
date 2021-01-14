@@ -2,4 +2,6 @@ $(".carousel").carousel({
   interval: 4000,
 });
 
-AOS.init()
+AOS.init({
+  duration : 700
+})
