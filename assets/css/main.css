@@ -1,0 +1,31 @@
+#navbar-flex{
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100%;
+}
+.carousel-item img{
+    max-height: 90vh !important;
+}
+
+.media img{
+    transition: .3s;
+}
+.media img:hover {
+    cursor: pointer;
+    transition: .3s;
+    transform: scale(1.1);
+
+}
+
+.bintang{
+    color: yellow;
+}
+
+.cardHover .col-md-4{
+    transition: .3s;
+}
+.cardHover .col-md-4:hover {
+    cursor: pointer;
+    transition: .3s;
+    transform: scale(1.04);
+}
