@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link  rel = "stylesheet" href ="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
 
@@ -15,267 +15,245 @@
   </head>
   <body>
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container" id="navbar-flex">
-            <a class="navbar-brand" href="#">Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <div id="app">
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                 <form class="form-inline ml-4">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="min-width: 250px;">
-                </form>
+         <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            
+        </nav>
+        <!-- end navbar -->
 
-                <ul class="navbar-nav mr-auto ml-4">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>       
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Catagory
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Game Mobile</a>
-                            <a class="dropdown-item" href="#">Game Pc</a>
-                            <a class="dropdown-item" href="#">Game Console</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">About Us</a>
-                    </li>
-                </ul>
+        <!-- crousel -->
+        <div class="header">
+            <div id="carouselExampleCaptions" class="carousel slide mt-5 mb-5" data-ride="carousel" style="width: 85%; margin: auto;"> 
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/banner-pubg.png" class="d-block w-100" alt="...">
+                    </div>
 
-                <ul class="navbar-nav mr-right">
-                    <li class="nav-item">
-                        <a class="nav-link"  href="#"><i class="fas fa-shopping-cart"></i></a>       
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="#">Login</a>       
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">|</a>       
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sigup</a>
-                    </li>
-                </ul>
-    
-            </div>
-    
+                    <div class="carousel-item">
+                        <img src="assets/images/banner-dota.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/images/banner-ml.jpeg" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>  
         </div>
-    </nav>
-    <!-- end navbar -->
+        <!-- crousel -->
 
-    <!-- crousel -->
-    <div class="header">
-        <!-- <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="width: 80%; margin: auto;"> 
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/images/banner-pubg.png" class="d-block w-100" alt="...">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="assets/images/images.jpg" class="d-block w-100" alt="...">
-                </div>
-
-                <div class="carousel-item">
-                    <img src="assets/images/images.jpg" class="d-block w-100" alt="...">
-                </div>
-
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>  -->
-    </div>
-    <!-- crousel -->
-
-    <!-- media -->
-    <div class="container mt-5 mb-5">
-        <div class="row">
-             <div class="col-md-12">
-                 <h5>
-                    <b>Game Terpopuler</b>
-                </h5>
-             </div>
-        </div>
-        <div class="row media">
-            <div class="col-md-3 mb-2">
-                <div class="card" data-aos="fade-left">
-                    <img src="assets/images/banner-pubg.png" class="card-img-top" style="height: 150px;" alt="...">
-                </div>
-            </div>
-             <div class="col-md-3 mb-2" data-aos="fade-left" data-aos-delay="100">
-                <div class="card">
-                    <img src="assets/images/banner-dota.jpg" class="card-img-top" style="height: 150px;" alt="...">
-                </div>
-            </div>
-             <div class="col-md-3 mb-2" data-aos="fade-left" data-aos-delay="150">
-                <div class="card">
-                    <img src="assets/images/banner-ml.jpeg" class="card-img-top" style="height: 150px;" alt="...">
-                </div>
-            </div>
-             <div class="col-md-3 mb-2" data-aos="fade-left" data-aos-delay="200">
-                <div class="card">
-                    <img src="assets/images/banner-ff.jpg" class="card-img-top" style="height: 150px;" alt="...">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- media -->
-    
-
-    <!-- card -->
-    <div class="container mt-5">
-        <div class="row mb-4 cardHover">
-            <div class="col-md-4">
-                <div class="card mb-3" >
-                    <img src="assets/images/diamond.jpg" class="card-img-top" alt="..." style="max-height: 200px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Diamond Mobile Legend</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <p class="harga"> <b>Rp. 50.000</b> </p>
-                        <p>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <a href="#" class="btn btn-primary btn-block">Beli</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-3" >
-                    <img src="assets/images/diamond2.jpeg" class="card-img-top" alt="..." style="max-height: 200px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Diamond Free Fire</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <p class="harga"> <b>Rp. 50.000</b> </p>
-                        <p>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <a href="#" class="btn btn-primary btn-block">Beli</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-3" >
-                    <img src="assets/images/gcoin.jpg" class="card-img-top" alt="..." style="max-height: 200px;">
-                    <div class="card-body">
-                        <h5 class="card-title">G-Coin PUBG</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <p class="harga"> <b>Rp. 50.000</b> </p>
-                        <p>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <a href="#" class="btn btn-primary btn-block">Beli</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mb-5 cardHover">
-            <div class="col-md-4">
-                <div class="card mb-3" >
-                    <img src="assets/images/diamond.jpg" class="card-img-top" alt="..." style="max-height: 200px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Diamond Mobile Legend</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <p class="harga"> <b>Rp. 50.000</b> </p>
-                        <p>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <a href="#" class="btn btn-primary btn-block">Beli</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-3" >
-                    <img src="assets/images/diamond2.jpeg" class="card-img-top" alt="..." style="max-height: 200px;">
-                    <div class="card-body">
-                        <h5 class="card-title">Diamond Free Fire</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <p class="harga"> <b>Rp. 50.000</b> </p>
-                        <p>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <a href="#" class="btn btn-primary btn-block">Beli</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card mb-3" >
-                    <img src="assets/images/gcoin.jpg" class="card-img-top" alt="..." style="max-height: 200px;">
-                    <div class="card-body">
-                        <h5 class="card-title">G-Coin PUBG</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <p class="harga"> <b>Rp. 50.000</b> </p>
-                        <p>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star bintang"></i>
-                            <i class="fas fa-star"></i>
-                        </p>
-                        <a href="#" class="btn btn-primary btn-block">Beli</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end card -->
-
-
-    <!-- footer -->
-    <div class="footer bg-dark">
-        <div class="container">
+        <!-- media -->
+        <div class="container mt-5 mb-5">
             <div class="row">
-                <div class="col-md">
-                    <h1>Hello world</h1>
+                <div class="col-md-12">
+                    <h5>
+                        <b>Game Terpopuler</b>
+                    </h5>
+                </div>
+            </div>
+            <div class="row media">
+                <div class="col-md-3 mb-2">
+                    <div class="card" data-aos="fade-left">
+                        <img src="assets/images/banner-pubg.png" class="card-img-top" style="height: 150px;" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2" >
+                    <div class="card cardRadius" data-aos="fade-left" data-aos-delay="100">
+                        <img src="assets/images/banner-dota.jpg" class="card-img-top" style="height: 150px;" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2" >
+                    <div class="card cardRadius" data-aos="fade-left" data-aos-delay="150">
+                        <img src="assets/images/banner-ml.jpeg" class="card-img-top" style="height: 150px;" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2" >
+                    <div class="card cardRadius" data-aos="fade-left" data-aos-delay="200">
+                        <img src="assets/images/banner-ff.jpg" class="card-img-top" style="height: 150px;" alt="...">
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- media -->
+    
+
+        <!-- card -->
+        <div class="container mt-5">
+            <div class="row mb-4 cardHover">
+                <div class="col-md-4">
+                    <div class="card mb-3 " style="border-radius: 10px;" data-aos="fade-left">
+                        <img src="assets/images/diamond.jpg" class="card-img-top " alt="..." style="min-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;" >
+                        <div class="card-body ">
+                            <h5 class="card-title ">Diamond Mobile Legend</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="harga "> <b>Rp. 50.000</b> </p>
+                            <p>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            
+                            <div class="buttons">
+                                <button class="btn btn-primary button-details">Details</button>
+                                <button class="btn btn-primary button-beli">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class=" card mb-3" style="border-radius: 10px;" data-aos="fade-left" data-aos-delay="200">
+                        <img src="assets/images/diamond2.jpeg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
+                        <div class=" card-body">
+                            <h5 class=" card-title">Diamond Free Fire</h5>
+                            <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class=" harga"> <b>Rp. 50.000</b> </p>
+                            <p>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                        
+                            <div class="buttons">
+                                <button class="btn btn-primary button-details">Details</button>
+                                <button class="btn btn-primary button-beli">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class=" card mb-3" style="border-radius: 10px;" data-aos="fade-left" data-aos-delay="400">
+                        <img src="assets/images/gcoin.jpg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
+                        <div class=" card-body">
+                            <h5 class=" card-title">G-Coin PUBG</h5>
+                            <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class=" harga"> <b>Rp. 50.000</b> </p>
+                            <p>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+
+                            <div class="buttons">
+                                <button class="btn btn-primary button-details">Details</button>
+                                <button class="btn btn-primary button-beli">Beli</button>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4 cardHover">
+                <div class="col-md-4">
+                    <div class="card mb-3 " style="border-radius: 10px;" data-aos="fade-left">
+                        <img src="assets/images/diamond.jpg" class="card-img-top " alt="..." style="min-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;" >
+                        <div class="card-body ">
+                            <h5 class="card-title ">Diamond Mobile Legend</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="harga "> <b>Rp. 50.000</b> </p>
+                            <p>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                            
+                            <div class="buttons">
+                                <button class="btn btn-primary button-details">Details</button>
+                                <button class="btn btn-primary button-beli">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class=" card mb-3" style="border-radius: 10px;" data-aos="fade-left" data-aos-delay="200">
+                        <img src="assets/images/diamond2.jpeg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
+                        <div class=" card-body">
+                            <h5 class=" card-title">Diamond Free Fire</h5>
+                            <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class=" harga"> <b>Rp. 50.000</b> </p>
+                            <p>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                        
+                            <div class="buttons">
+                                <button class="btn btn-primary button-details">Details</button>
+                                <button class="btn btn-primary button-beli">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class=" card mb-3" style="border-radius: 10px;" data-aos="fade-left" data-aos-delay="400">
+                        <img src="assets/images/gcoin.jpg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
+                        <div class=" card-body">
+                            <h5 class=" card-title">G-Coin PUBG</h5>
+                            <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class=" harga"> <b>Rp. 50.000</b> </p>
+                            <p>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+
+                            <div class="buttons">
+                                <button class="btn btn-primary button-details">Details</button>
+                                <button class="btn btn-primary button-beli">Beli</button>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end card -->
+
+        <!-- footer -->
+        <div class="footer bg-dark mt-5 pt-5" style="color: #eaeaea;">
+            
+        </div>
+        <!-- footer -->
+
+       
+
     </div>
-    <!-- footer -->
 
     <script src="assets/js/jquery-3.5.1.min.js"></script>
-    <script  src = "https://unpkg.com/aos@next/dist/aos.js "> </script> 
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    
     <script src="assets/js/main.js"></script>
   </body>
 </html>
