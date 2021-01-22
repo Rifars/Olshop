@@ -7,9 +7,18 @@ AOS.init({
   duration : 800
 })
 
+// redirect
+// function redirect() {
+//     let benar = confirm("Transaksi Berhasil, Tunggu Admin Untuk Memvalidasi");
+//     if (benar === true) {
+//         window.location.href = "index.html";
+//     } else {
+//         window.location.href = "payment.html";
+//     }
+// }
+
 // navbar
-let navbars = 
-`<div class="container" id="navbar-flex">
+let navbars = `<div class="container" id="navbar-flex">
     <a class="navbar-brand" href="#">Logo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,11 +64,12 @@ let navbars =
             <li class="nav-item">
                 <a class="nav-link"  href="#">Login</a>       
             </li>
-            <!-- <li class="nav-item active">
-                <a class="nav-link" href="#">|</a>       
-            </li> -->
             <li class="nav-item">
                 <a class="nav-link" href="#">SignUp</a>
+            </li>
+            <li class="nav-item" style="display:flex; align-items:center; height:100%; " onClick="return window.location.href='profile.html' ">
+                <img src="assets/images/images.jpg" style="width:30px; height:30px; border-radius:50%;" class="ml-2" >
+                <a class="nav-link text-light" href="#" >Ucok</a>
             </li>
         </ul>
 
@@ -120,12 +130,6 @@ let footer = document.querySelector('.footer');
 footer.innerHTML = footers;
 
 let moduls = document.querySelector('.modul')
-let detailsCard = document.querySelectorAll('.button-details');
-[...detailsCard].forEach(function (e) {
-  e.addEventListener('click', function () {
-    window.location.href = "../../detail-product.html";
-  })
-});
 
 let beli = document.querySelectorAll('.button-beli');
 [...beli].forEach(function (e) {
@@ -163,14 +167,17 @@ lanjutPembayaran.addEventListener('click',function () {
   window.location.href = "../../metode-pembayaran.html";
 });
 
-let itemLainnya = document.querySelector('.item-lainnya')
-function lanjut(img) {
-    for(let i = 0; i < 4; i++){
-        itemLainnya.innerHTML += `<div class="col-md-3">
+
+// let itemLainnya = document.querySelector('.item-lainnya');
+// let barangTerjuals = document.querySelector(".barang-terjual");
+function lanjut(item) {
+  let items = document.querySelector(item);
+  for (let i = 0; i < 4; i++) {
+    items.innerHTML += `<div class="col-md-3">
           <div class="card mb-3 " style="border-radius: 10px;">
             <img src="assets/images/diamond.jpg" class="card-img-top " alt="..." style="min-height: 100px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;" >
               <div class="card-body ">
-                  <h6 class="card-title ">Diamond Mobile Legend</h6>
+                  <h6 class="card-title ">Akun Mobile Legend</h6>
                   <p>
                       <i class="fas fa-star bintang"></i>
                       <i class="fas fa-star bintang"></i>
@@ -181,14 +188,6 @@ function lanjut(img) {
               </div>
           </div>
         </div>`;
-    }
+  }
 }
-lanjut();
-
-
-
-
-
-
-
-
+lanjut(".item-lainnya");

@@ -138,8 +138,40 @@ body {
 }
 
 
+/* bagian profile */
+.row-profile a{
+    color: #333;
+    text-decoration: none;
+}
+
+.row-profile:hover{
+    text-decoration: none;
+    background-color: #aeaeae42;
+    color: rgba(51, 51, 51, 0.8);
+}
+ .row-profile:hover a{
+     color: rgba(51, 51, 51, 0.8);
+ }
+
+.line-active {
+    border-right: 5px solid #007bff;
+}
+
+.notif{
+    background-color: #eaeaea;
 
 
+}
+
+/* .icon-profile{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #aeaeae;
+}
+ */
 
 
 
