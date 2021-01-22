@@ -7,15 +7,6 @@ AOS.init({
   duration : 800
 })
 
-// redirect
-// function redirect() {
-//     let benar = confirm("Transaksi Berhasil, Tunggu Admin Untuk Memvalidasi");
-//     if (benar === true) {
-//         window.location.href = "index.html";
-//     } else {
-//         window.location.href = "payment.html";
-//     }
-// }
 
 // navbar
 let navbars = `<div class="container" id="navbar-flex">
@@ -40,7 +31,7 @@ let navbars = `<div class="container" id="navbar-flex">
 
         <ul class="navbar-nav mr-auto ml-4">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>       
+                <a class="nav-link" href="index.html">Home</a>       
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -59,7 +50,10 @@ let navbars = `<div class="container" id="navbar-flex">
 
         <ul class="navbar-nav mr-right ml-4">
             <li class="nav-item">
-                <a class="nav-link"  href="#"><i class="fas fa-shopping-cart"></i></a>       
+                <a class="nav-link"  href="keranjang.html"><i class="fas fa-shopping-cart"></i></a>       
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="riwayat-transaksi.html">Riwayat Transaksi</a>       
             </li>
             <li class="nav-item">
                 <a class="nav-link"  href="#">Login</a>       
