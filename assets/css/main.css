@@ -11,7 +11,9 @@ html,body {
 body {
     background-color: #eaeaea;
 }
-
+/* .navbar {
+    background: none !important;
+} */
 #navbar-flex{
     display: flex !important;
     justify-content: space-between !important;
@@ -26,8 +28,7 @@ body {
 }
 .media img{
     transition: .3s;
-    border-radius: 10px;
-    box-shadow: 2px 2px 7px #aeaeae;
+
 }
 .media img:hover {
     cursor: pointer;
@@ -175,3 +176,34 @@ body {
 
 
 
+/* media  */
+@media only screen and (max-width: 575px) and (max-height: 679px){
+    #navbar-search {
+        margin-top: 10px;
+        flex-direction: column;
+        width: 100% !important;
+    }
+    #logo {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        text-transform: uppercase;
+ 
+        font-weight: bold;
+    }
+    #media {
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+    }
+    #media .card {
+
+        height: 160px !important;
+    }
+    #media .card img {
+        height: 100px !important;
+    }
+    #media .card-body h5{
+        font-size: 1rem !important;
+    }
+
+}
