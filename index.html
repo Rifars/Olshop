@@ -24,8 +24,8 @@
         <!-- end navbar -->
 
         <!-- crousel -->
-        <div class="header">
-            <div id="carouselExampleCaptions" class="carousel slide mt-5 mb-5" data-ride="carousel" style="width: 85%; margin: auto;"> 
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide mt-2" data-ride="carousel" style="width: 100%; margin: auto;"> 
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -58,35 +58,62 @@
         <!-- crousel -->
 
         <!-- media -->
-        <div class="container mt-5 mb-5">
+        <div class="container mt-3 mb-5">
             <div class="row">
                 <div class="col-md-12">
                     <h5>
-                        <b>Game Terpopuler</b>
+                        <b>Katagori</b>
                     </h5>
                 </div>
             </div>
-            <div class="row media">
-                <div class="col-md-3 mb-2">
-                    <div class="card" data-aos="fade-left">
-                        <img src="assets/images/banner-pubg.png" class="card-img-top" style="height: 150px;" alt="...">
+
+            <div class="row" id="media" style="text-align: center;">
+                <!-- card  -->
+                <div class="col-md-3">
+                    <div class="card mb-3" style="border-radius: 10px ; height: 200px;" data-aos="fade-left">
+                        <img src="assets/images/banner-dota.jpg" class="card-img-top " alt="..." style="max-height: 150px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;" >
+                        <div class="card-body ">
+                            <h5 class="card-title ">Pakaian</h5>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-2" >
-                    <div class="card cardRadius" data-aos="fade-left" data-aos-delay="100">
-                        <img src="assets/images/banner-dota.jpg" class="card-img-top" style="height: 150px;" alt="...">
+                <!--end card  -->
+
+                <!-- card -->
+                <div class="col-md-3">
+                    <div class="card mb-3" style="border-radius: 10px; height: 200px;" data-aos="fade-left" data-aos-delay="400">
+                        <img src="assets/images/banner-dota.jpg" class=" card-img-top" alt="..." style="max-height: 150px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
+                        <div class=" card-body">
+                            <h5 class=" card-title">Celana</h5>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-2" >
-                    <div class="card cardRadius" data-aos="fade-left" data-aos-delay="150">
-                        <img src="assets/images/banner-ml.jpeg" class="card-img-top" style="height: 150px;" alt="...">
+                <!-- end card  -->
+
+                 <!-- card -->
+                <div class="col-md-3">
+                    <div class="card mb-3" style="border-radius: 10px; height: 200px;" data-aos="fade-left" data-aos-delay="400">
+                        <img src="assets/images/banner-dota.jpg" class=" card-img-top" alt="..." style="max-height: 150px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
+                        <div class=" card-body">
+                            <h5 class=" card-title">Sepatu</h5>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-2" >
-                    <div class="card cardRadius" data-aos="fade-left" data-aos-delay="200">
-                        <img src="assets/images/banner-ff.jpg" class="card-img-top" style="height: 150px;" alt="...">
+                <!-- end card  -->
+
+                <!-- card -->
+                <div class="col-md-3">
+                    <div class="card mb-3" style="border-radius: 10px; height: 200px;" data-aos="fade-left" data-aos-delay="400">
+                        <img src="assets/images/banner-dota.jpg" class=" card-img-top" alt="..." style="max-height: 150px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
+                        <div class=" card-body">
+                            <h5 class=" card-title">Tas</h5>                          
+                        
+                        </div>
                     </div>
                 </div>
+                <!-- end card  -->
             </div>
         </div>
         <!-- media -->
@@ -96,12 +123,12 @@
         <div class="container mt-5">
             <div class="row mb-4 cardHover">
                 <!-- card  -->
-                <div class="col-md-4">
-                    <div class="card mb-3 " style="border-radius: 10px;" data-aos="fade-left">
+                <div class="col-md-3">
+                    <div class="card mb-3" style="border-radius: 10px ;min-height: 400px;" data-aos="fade-left">
                         <img src="assets/images/banner-pubg.png" class="card-img-top " alt="..." style="min-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;" >
                         <div class="card-body ">
                             <h5 class="card-title ">Akun PUBG Mobile</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
                             <p class="harga "> <b>Rp. 150.000</b> </p>
                             <p>
                                 <i class="fas fa-star bintang"></i>
@@ -112,124 +139,79 @@
                             </p>
                             
                             <div class="buttons">
-                                <button class="btn btn-primary button-details" data-toggle="modal" data-target="#exampleModal">Details</button>
-                                <button class="btn btn-primary button-beli">Beli</button>
+                                
+                                <a href="beli-product.html" class="btn btn-primary button-details btn-sm" style="width: 45%;">Beli</a>
+                                
+                                <a href="keranjang.html" class="btn btn-primary button-beli btn-sm" style="width: 45%;">Add to cart</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--end card  -->
 
-                <!-- card  -->
-                <div class="col-md-4">
-                    <div class=" card mb-3" style="border-radius: 10px;" data-aos="fade-left" data-aos-delay="200">
-                        <img src="assets/images/diamond2.jpeg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
-                        <div class=" card-body">
-                            <h5 class=" card-title">Diamond Free Fire</h5>
-                            <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <p class=" harga"> <b>Rp. 50.000</b> </p>
-                            <p>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-                        
-                            <div class="buttons">
-                                <button class="btn btn-primary button-details" data-toggle="modal" data-target="#exampleModal">Details</button>
-                                <button class="btn btn-primary button-beli">Beli</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end card  -->
-
                 <!-- card -->
-                <div class="col-md-4">
-                    <div class=" card mb-3" style="border-radius: 10px;" data-aos="fade-left" data-aos-delay="400">
+                <div class="col-md-3">
+                    <div class="card mb-3" style="border-radius: 10px; min-height: 400px;" data-aos="fade-left" data-aos-delay="400">
                         <img src="assets/images/gcoin.jpg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
                         <div class=" card-body">
                             <h5 class=" card-title">G-Coin PUBG</h5>
-                            <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <p class=" harga"> <b>Rp. 50.000</b> </p>
-                            <p>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
-
-                            <div class="buttons">
-                                <button class="btn btn-primary button-details" data-toggle="modal" data-target="#exampleModal">Details</button>
-                                <button class="btn btn-primary button-beli">Beli</button>
-                            </div>
-                        
-                        </div>
-                    </div>
-                </div>
-                <!-- end card  -->
-            </div>
-
-            <div class="row mb-4 cardHover">
-                <!-- card  -->
-                <div class="col-md-4">
-                    <div class="card mb-3 " style="border-radius: 10px;" data-aos="fade-left">
-                        <img src="assets/images/banner-pubg.png" class="card-img-top " alt="..." style="min-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;" >
-                        <div class="card-body ">
-                            <h5 class="card-title ">Akun PUBG Mobile</h5>
-                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <p class="harga "> <b>Rp. 150.000</b> </p>
-                            <p>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </p>
                             
-                            <div class="buttons">
-                                <button class="btn btn-primary button-details" data-toggle="modal" data-target="#exampleModal">Details</button>
-                                <button class="btn btn-primary button-beli">Beli</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end card  -->
-
-                <!-- card  -->
-                <div class="col-md-4">
-                    <div class=" card mb-3" style="border-radius: 10px;" data-aos="fade-left" data-aos-delay="200">
-                        <img src="assets/images/diamond2.jpeg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
-                        <div class=" card-body">
-                            <h5 class=" card-title">Diamond Free Fire</h5>
-                            <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <p class=" harga"> <b>Rp. 50.000</b> </p>
                             <p>
                                 <i class="fas fa-star bintang"></i>
                                 <i class="fas fa-star bintang"></i>
                                 <i class="fas fa-star bintang"></i>
-                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star bintang"></i>
                                 <i class="fas fa-star"></i>
                             </p>
-                        
+
                             <div class="buttons">
-                                <button class="btn btn-primary button-details" data-toggle="modal" data-target="#exampleModal">Details</button>
-                                <button class="btn btn-primary button-beli">Beli</button>
+                                
+                                <a href="beli-product.html" class="btn btn-primary button-details btn-sm" style="width: 45%;">Beli</a>
+                                
+                                <a href="keranjang.html" class="btn btn-primary button-beli btn-sm" style="width: 45%;">Add to cart</a>
                             </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                <!-- end card  -->
+
+                 <!-- card -->
+                <div class="col-md-3">
+                    <div class="card mb-3" style="border-radius: 10px; min-height: 400px;" data-aos="fade-left" data-aos-delay="400">
+                        <img src="assets/images/gcoin.jpg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
+                        <div class=" card-body">
+                            <h5 class=" card-title">G-Coin PUBG</h5>
+                            
+                            <p class=" harga"> <b>Rp. 50.000</b> </p>
+                            <p>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star bintang"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+
+                            <div class="buttons">
+                                
+                                <a href="beli-product.html" class="btn btn-primary button-details btn-sm" style="width: 45%;">Beli</a>
+                                
+                                <a href="keranjang.html" class="btn btn-primary button-beli btn-sm" style="width: 45%;">Add to cart</a>
+                            </div>
+                        
                         </div>
                     </div>
                 </div>
                 <!-- end card  -->
 
                 <!-- card -->
-                <div class="col-md-4">
-                    <div class=" card mb-3" style="border-radius: 10px;" data-aos="fade-left" data-aos-delay="400">
+                <div class="col-md-3">
+                    <div class="card mb-3" style="border-radius: 10px; min-height: 400px;" data-aos="fade-left" data-aos-delay="400">
                         <img src="assets/images/gcoin.jpg" class=" card-img-top" alt="..." style="max-height: 200px; width: 90%; text-align: center; margin:15px auto 0; border-radius: 5px;">
                         <div class=" card-body">
                             <h5 class=" card-title">G-Coin PUBG</h5>
-                            <p class=" card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            
                             <p class=" harga"> <b>Rp. 50.000</b> </p>
                             <p>
                                 <i class="fas fa-star bintang"></i>
@@ -240,8 +222,10 @@
                             </p>
 
                             <div class="buttons">
-                                <button class="btn btn-primary button-details" data-toggle="modal" data-target="#exampleModal">Details</button>
-                                <button class="btn btn-primary button-beli">Beli</button>
+                                
+                                <a href="beli-product.html" class="btn btn-primary button-details btn-sm" style="width: 45%;">Beli</a>
+                                
+                                <a href="keranjang.html" class="btn btn-primary button-beli btn-sm" style="width: 45%;">Add to cart</a>
                             </div>
                         
                         </div>

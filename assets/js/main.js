@@ -10,50 +10,23 @@ AOS.init({
 
 // navbar
 let navbars = `<div class="container" id="navbar-flex">
-    <a class="navbar-brand" href="#">Logo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    
-
+    <a class="navbar-brand" href="index.html" id="logo" >Olshop</a>
+    <form class="form-inline ml-2" style="width:90%;" id="navbar-search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width:100%;">
+        <span style="height:100%; background-color: white; width: 30px; margin-left: -40px;">
+            
+        </span>
+    </form>
+   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-3"></ul>
 
-        <form class="form-inline ml-4">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="min-width: 250px;">
-            <span style="height:100%; background-color: white; width: 30px; margin-left: -40px;">
-                <i class="fa fa-search" style="cursor: pointer; color: #007bff;"></i>
-            </span>
-        </form>
 
-        
-
-        <ul class="navbar-nav mr-auto ml-4">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>       
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Catagory
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Game Mobile</a>
-                    <a class="dropdown-item" href="#">Game Pc</a>
-                    <a class="dropdown-item" href="#">Game Console</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link">About Us</a>
-            </li>
-        </ul>
+        <ul class="navbar-nav mr-auto ml-4"></ul>
 
         <ul class="navbar-nav mr-right ml-4">
             <li class="nav-item">
                 <a class="nav-link"  href="keranjang.html"><i class="fas fa-shopping-cart"></i></a>       
-            </li>
-            <li class="nav-item">
-                <a class="nav-link"  href="riwayat-transaksi.html">Riwayat Transaksi</a>       
             </li>
             <li class="nav-item">
                 <a class="nav-link"  href="#">Login</a>       
@@ -61,10 +34,7 @@ let navbars = `<div class="container" id="navbar-flex">
             <li class="nav-item">
                 <a class="nav-link" href="#">SignUp</a>
             </li>
-            <li class="nav-item" style="display:flex; align-items:center; height:100%; " onClick="return window.location.href='profile.html' ">
-                <img src="assets/images/images.jpg" style="width:30px; height:30px; border-radius:50%;" class="ml-2" >
-                <a class="nav-link text-light" href="#" >Ucok</a>
-            </li>
+            
         </ul>
 
     </div>
